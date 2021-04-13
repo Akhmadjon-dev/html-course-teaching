@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="uz">
+    <head>
+        <meta lang="uz">
+        <title>form</title>
+    </head>
+    <body>
+
+        <h1>Form elementi</h1>
+        <p>	&spades;</p>
+
+        <form>
+            <label for="ism">Ismingizni kiriting:</label>
+            <input type="text" required value="" autocomplete="additional-name" name="ismi" id="ism"> <br> <br>
+            
+            <label for="pass">Parolingizni kiriting:</label>
+            <input type="password" required placeholder="enter your password"  name="parol" id="pass"> <br> <br>
+
+            <label for="tel">Phone number kiriting:</label>
+            <input type="number" placeholder="enter your phone " max="1000" min="50" name="phone" id="tel"> <br> <br>
+
+
+            <label for="gender">Jinsingizni tanlang:</label>
+
+            <label for="man">Erkak</label>
+            <input type="radio" name="gender" value="man" id="man"> 
+
+            <label for="women">Ayol</label>
+            <input type="radio" name="gender" value="women" id="women"> <br> <br>
+
+            <label for="check">Hobbyingizni tanlang:</label>
+
+            <label for="movie">Kino</label>
+            <input type="checkbox" value="movie" name="hobby" id="movie"> 
+            
+            <label for="game">O'yin</label>
+            <input type="checkbox" value="game" name="hobby" id="game"> 
+
+            <label for="book">Kitob</label>
+            <input type="checkbox" value="book" name="hobby" id="book"> 
+            
+            
+            <br> <br>
+
+            <!-- men bu yer textarea ni yozdim -->
+            <label for="izoh">Izoh qoldiring:</label>
+            <textarea name="izoh" id="izoh" cols="30" rows="10"></textarea> <br> <br>
+
+            <label style="color:  red;" for="lang">Tilni tanlang:</label>
+            <select name="til" id="lang">
+                <option value="uz">Uzbekcha</option>
+                <option value="ru">Ruscha</option>
+                <option value="en">Inglizcha</option>
+            </select>
+
+            <br><br>
+
+
+            <!-- <input type="submit" value="Yubor"> -->
+            <button type="submit">Yubor</button>
+        </form>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        <!-- <h2>My feedback form</h2>
+        <form>
+            <ul>
+                <li><label for="name">Name:</label><input type="name"></li>
+                <li><label for="email">Email:</label><input type="email"></li>
+                <li><label for="password">Password:</label> <input type="password"></li>
+            </ul>
+            <ul>
+                <li>Please check all emotions:
+                    <ul>
+                        <li><label for="angry">Angry:</label><input type="checkbox"></li>
+                        <li><label for="sad">Sad:</label><input type="checkbox"></li>
+                    </ul>
+                </li>
+                <li>How satisfied:
+                    <ul>
+                        <li><label for="vsat">Very satisfied:</label><input checked type="radio"></li>
+                        <li><label for="vsat">Very satisfied:</label><input type="radio"></li>
+                        <li><label for="vsat">Very satisfied:</label><input type="radio"></li>
+                        <li><label for="further">Further information:</label><textarea name="further" id="further" cols="17" rows="3"></textarea></li>
+                        
+                    </ul>
+                    <ul>
+                        <li><label for="phott">Bio photo</label><input type="file"></li>
+                        <li><label for="location">Select location:</label>
+                            <select name="location" id="location">
+                                <option value="choose one">Choose one</option>
+                                <option value="choose one">tashkent</option>
+                                <option value="choose one">jizzax</option>
+                                <option value="choose one">Choose one</option>
+                                <option value="choose one">Choose one</option>
+                            </select>
+                        </li>
+                    </ul>
+                    <li><label for="submit">Submit:</label><input type="submit"></li>
+                </li>
+            </ul>
+        </form> -->
+    </body>
+</html>

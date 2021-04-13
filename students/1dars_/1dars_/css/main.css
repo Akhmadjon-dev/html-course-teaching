@@ -1,0 +1,53 @@
+.a{
+	background-color: grey;
+	width: 270px;
+}
+.ac1{
+	background-color: #020286;
+}
+.ac2{
+	background-color: #0000ff;
+}
+.ac3{
+	background-color: #009aff;
+}
+.ad{
+	margin: 4px;
+}
+mark{
+	background-color: blue;
+}
+/*-------------------*/
+.right{ 
+	position: absolute;
+	top: 15px;
+	display: block;
+	width: 100%;
+}
+.ass{
+	color:blue;
+}
+.mai{
+	margin-left: 310px;
+}
+.exp{
+	margin-left: 270px;	
+	background-color: grey;
+}
+.exp h3{
+	margin-left: 40px;	
+}
+.alii{
+	margin-left: 310px;
+}
+.alii2{
+	margin-left: 310px;
+}
+.hob{
+	/*column-count: 5;	*/
+	margin-left: 310px;		
+}
+.hob img{
+	width: 120px;
+	height: 120px;
+}

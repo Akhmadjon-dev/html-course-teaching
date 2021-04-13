@@ -1,0 +1,19 @@
+table,th,td{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.title.para{
+    color: blue;
+}
+.title{
+    color: red;
+}
+.para{
+    color: green;
+}
+#title{
+    color: rgb(12, 209, 235);
+}
