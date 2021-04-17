@@ -1,0 +1,26 @@
+.link a{
+    color: aqua;
+}
+.link{
+    margin: 0px 10px;
+    color: #f1f1f1
+}
+
+.links{
+    background-color: #5f5f5f;
+}
+
+.link__block{
+    display: inline-block;
+}
+
+button{
+    background-color: #4CAF50;
+    border: none;
+    color: #f1f1f1;
+    border-radius: 5px;
+    padding: 6px 12px;
+}
+#logo span{
+    color: #4CAF50
+}
